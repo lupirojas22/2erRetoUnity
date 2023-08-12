@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/PCGame2d_Reto2/Scenes/mainMenu.unity
+    guid: 00af52d15dae17f49bbb0eb2b1959037
+  - enabled: 1
+    path: Assets/PCGame2d_Reto2/Scenes/Scene01.unity
+    guid: 912abe2bdc461bc48bafc9c672ed06d0
+  - enabled: 1
+    path: Assets/PCGame2d_Reto2/Scenes/Scene02.unity
+    guid: fc3d1ba6e274f9b43b2a598ec6fa0e51
+  - enabled: 1
+    path: Assets/PCGame2d_Reto2/Scenes/Scene03.unity
+    guid: 6b7b833051944b54eba978094c974e7f
+  m_configObjects: {}

@@ -1,0 +1,781 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.28f1 (232e59c3f087) revision 2305625'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 8189 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/lupi/unity/RETO2/PCGame2d_Reto2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54652
+Successfully changed project path to: D:/lupi/unity/RETO2/PCGame2d_Reto2
+D:/lupi/unity/RETO2/PCGame2d_Reto2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18296] Host "[IP] 192.168.129.136 [Port] 0 [Flags] 2 [Guid] 4240573838 [EditorId] 4240573838 [Version] 1048832 [Id] WindowsEditor(7,LEON-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18296] Host "[IP] 192.168.129.136 [Port] 0 [Flags] 2 [Guid] 4240573838 [EditorId] 4240573838 [Version] 1048832 [Id] WindowsEditor(7,LEON-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 439.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.28f1 (232e59c3f087)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/lupi/unity/RETO2/PCGame2d_Reto2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 5450 (ID=0x68f9)
+    Vendor:   ATI
+    VRAM:     1010 MB
+    Driver:   15.201.2401.0
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.043049 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 226.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.223 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2224ms)
+		BeginReloadAssembly (780ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1110ms)
+			LoadAssemblies (775ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (645ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (227ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (138ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014059 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\lupi\unity\RETO2\PCGame2d_Reto2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\lupi\unity\RETO2\PCGame2d_Reto2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 249.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.993 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5995ms)
+		BeginReloadAssembly (281ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (5386ms)
+			LoadAssemblies (862ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (792ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (291ms)
+			SetupLoadedEditorAssemblies (3343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (250ms)
+				BeforeProcessingInitializeOnLoad (329ms)
+				ProcessInitializeOnLoadAttributes (2412ms)
+				ProcessInitializeOnLoadMethodAttributes (311ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (5ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.51 seconds
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5178 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (2.2 MB). Loaded Objects now: 5634.
+Memory consumption went from 212.3 MB to 210.0 MB.
+Total: 9.589900 ms (FindLiveObjects: 0.691600 ms CreateObjectMapping: 0.536500 ms MarkObjects: 6.966100 ms  DeleteObjects: 1.393500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 122459.426590 seconds.
+  path: Assets/ClasesNivelacionDiplomado
+  artifactKey: Guid(880271298d9c414439d279a10f425bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClasesNivelacionDiplomado using Guid(880271298d9c414439d279a10f425bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e429127d27bf11043509cb1e0440cf8') in 0.091328 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (2.2 MB). Loaded Objects now: 5634.
+Memory consumption went from 98.4 MB to 96.2 MB.
+Total: 13.684900 ms (FindLiveObjects: 0.726600 ms CreateObjectMapping: 0.515400 ms MarkObjects: 10.854300 ms  DeleteObjects: 1.586900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 96.520294 seconds.
+  path: Assets/PCGame2d_Reto2/Animation
+  artifactKey: Guid(2f1bd0406b1263241a04ac3e647328c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Animation using Guid(2f1bd0406b1263241a04ac3e647328c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154a78a05b504a12c1252747d8d5867c') in 0.076025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.390645 seconds.
+  path: Assets/PCGame2d_Reto2/Scripts
+  artifactKey: Guid(c46390005579413458ce2249f032d816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Scripts using Guid(c46390005579413458ce2249f032d816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45703a8704a5335f9be335b19d8ceb4c') in 0.101125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.452390 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites
+  artifactKey: Guid(d35022487eaac8945aa36ed98707fea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites using Guid(d35022487eaac8945aa36ed98707fea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741eb655400b5d3fc46e298e8c40ab6b') in 0.040012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.586846 seconds.
+  path: Assets/PCGame2d_Reto2/Scenes
+  artifactKey: Guid(0a67dff6cb146d54380f2dc1fd09e946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Scenes using Guid(0a67dff6cb146d54380f2dc1fd09e946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c10973e8bba9bf7a20b3aa2fe12983') in 0.047015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.196682 seconds.
+  path: Assets/PCGame2d_Reto2/Scenes/Scene01.unity
+  artifactKey: Guid(912abe2bdc461bc48bafc9c672ed06d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Scenes/Scene01.unity using Guid(912abe2bdc461bc48bafc9c672ed06d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b809fd6478e90d9272a468193fd28a0c') in 0.029832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 143.932417 seconds.
+  path: Assets/Cainos
+  artifactKey: Guid(33a01e42851e7b346b31a05ded519448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos using Guid(33a01e42851e7b346b31a05ded519448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad2759a9c6e821d88ed70c11c510a8b') in 0.030047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.824370 seconds.
+  path: Assets/PCGame2d_Reto2/Scenes/mainMenu.unity
+  artifactKey: Guid(00af52d15dae17f49bbb0eb2b1959037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Scenes/mainMenu.unity using Guid(00af52d15dae17f49bbb0eb2b1959037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebc06d69a20e89a5640847c5d66c64b') in 0.039612 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032300 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\lupi\unity\RETO2\PCGame2d_Reto2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\lupi\unity\RETO2\PCGame2d_Reto2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.762 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4766ms)
+		BeginReloadAssembly (517ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (47ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (112ms)
+		EndReloadAssembly (3590ms)
+			LoadAssemblies (366ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1583ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (230ms)
+			SetupLoadedEditorAssemblies (1401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (320ms)
+				ProcessInitializeOnLoadAttributes (798ms)
+				ProcessInitializeOnLoadMethodAttributes (239ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 15.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5054 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (2.2 MB). Loaded Objects now: 5649.
+Memory consumption went from 199.4 MB to 197.2 MB.
+Total: 22.446000 ms (FindLiveObjects: 0.654700 ms CreateObjectMapping: 0.881500 ms MarkObjects: 13.011500 ms  DeleteObjects: 7.895900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 353.515534 seconds.
+  path: Assets/PCGame2d_Reto2/Scenes/Scene03.unity
+  artifactKey: Guid(6b7b833051944b54eba978094c974e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Scenes/Scene03.unity using Guid(6b7b833051944b54eba978094c974e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125a677157cf8ee8cbc58c23a33092dc') in 0.044558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.893923 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bdfd0d51c587b1d671d062f6e150a0') in 0.985427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
+  artifactKey: Guid(8878a782f4334ecbbcf683b3ac780966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg using Guid(8878a782f4334ecbbcf683b3ac780966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf93d350c14c1c3fcd463e458ae77b67') in 0.404141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+  artifactKey: Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg using Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42895f243d3431e0935381bd8ff2f0d') in 0.088731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+  artifactKey: Guid(602cb87b6a29443b8636370ea0751574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg using Guid(602cb87b6a29443b8636370ea0751574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321b69760a44ffa1e0cd5310619132aa') in 0.105999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/Pixel Skies/demo02_PixelSky_layer02.png
+  artifactKey: Guid(133ff4e02187f97458c0d10ac3ab15bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/Pixel Skies/demo02_PixelSky_layer02.png using Guid(133ff4e02187f97458c0d10ac3ab15bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a722f46d5b6dc8ad96aef1c9adbe730') in 0.104871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39f9c91bf5165c219272e3d19e471cd') in 0.204122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd
+  artifactKey: Guid(10c49fcd9c64421db7c0133e61e55f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd using Guid(10c49fcd9c64421db7c0133e61e55f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af5088cc173e57517b9da2741075b27') in 0.240605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+  artifactKey: Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd using Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0441e313e90891689da71df0f51660dc') in 0.098879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/Objects.png
+  artifactKey: Guid(f73dfe034c22cfc41bd7e8799020a5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/Objects.png using Guid(f73dfe034c22cfc41bd7e8799020a5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951d129bc248a63b2cab1c5ad9eba06b') in 0.133727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d404e09ecafa97e5deae4d2b358730f') in 1.814768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/cerrar-ventana.png
+  artifactKey: Guid(a3599cbea2246e145a72640a0dd8d133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/cerrar-ventana.png using Guid(a3599cbea2246e145a72640a0dd8d133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0717269e22454d3433486346bc3bd4c9') in 0.099393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9558542d8c96f2080fc50ab4b83c57') in 0.195241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/Pixel Skies/demo02_PixelSky_layer01.png
+  artifactKey: Guid(168d4c89695ec554d84b438bd781f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/Pixel Skies/demo02_PixelSky_layer01.png using Guid(168d4c89695ec554d84b438bd781f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6d631503e45a571f10a9fe2d415822') in 0.068419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495a91adb1922e1332599f4a5eca9188') in 0.126120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/Pixel Skies/demo02_PixelSky_layer03.png
+  artifactKey: Guid(6fc934c28f4a61548a11c8c0767f4834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/Pixel Skies/demo02_PixelSky_layer03.png using Guid(6fc934c28f4a61548a11c8c0767f4834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ff9872c10c76feac30fd29f01af25c') in 0.093616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/Coins.png
+  artifactKey: Guid(274d64617113287499ed1c4165d1d8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/Coins.png using Guid(274d64617113287499ed1c4165d1d8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2712fc68de8bf0fad94c6876308dd711') in 0.174947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/personaje1.png
+  artifactKey: Guid(cf771513c784e0747844b0269d4ccd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/personaje1.png using Guid(cf771513c784e0747844b0269d4ccd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b2c812759253d357c71cb1b80e8409') in 1.198953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX FX Flame.png
+  artifactKey: Guid(9018b269c00ab544d814cc041d70fc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX FX Flame.png using Guid(9018b269c00ab544d814cc041d70fc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e233c4fe22fb3fd7694acd925a29bada') in 0.078570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62537b2c41b1f42e9eff2a6670516743') in 0.346137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc14c5dd965f532fab2051be5de6bb2') in 0.131085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+  artifactKey: Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg using Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0900603b368f6668d4dae7dd4f73f1b4') in 0.095843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ccdeae739803c28517e83f81315753') in 1.255138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/Pixel Skies/demo01_PixelSky_1920x1080.png
+  artifactKey: Guid(e7f9251d007ab1547bd1c48a700894c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/Pixel Skies/demo01_PixelSky_1920x1080.png using Guid(e7f9251d007ab1547bd1c48a700894c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0fc0c66d639887e2abc9aa8695f844') in 0.472526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4d2d9d0a8fedf6df347aa7694e6c93') in 0.079212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Chest Animation.png
+  artifactKey: Guid(19e07f9d107e445408633f50457d456e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Chest Animation.png using Guid(19e07f9d107e445408633f50457d456e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb8e94bfd74a57e87c3307464abe864') in 0.306618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/pregunta.png
+  artifactKey: Guid(511e8c7fa72f7734d82e0ac27574426b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/pregunta.png using Guid(511e8c7fa72f7734d82e0ac27574426b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b401b33f6765b1f5c09e03714fefed08') in 0.081417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd
+  artifactKey: Guid(bb8dfcd263ad4eb383a33d74a720be6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd using Guid(bb8dfcd263ad4eb383a33d74a720be6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfd63e0ef60b178881faf322724ca5e') in 0.081277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46099ebce9a21037b98e3256a66407ad') in 0.183219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+  artifactKey: Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133c9cf95bb12001974585b355d5ded4') in 0.059040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+  artifactKey: Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg using Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34804dcfeb292269d399c1307f13ff1f') in 0.080136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c337cfe958bb7c6370b9392507de3692') in 0.056373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+  artifactKey: Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg using Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ced3c41084615e71f936866a1b06aaf') in 0.085524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PCGame2d_Reto2/Font/Super Foods SDF.asset
+  artifactKey: Guid(45b8a2611ab7b6d4687c6bd4ad3b10c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Font/Super Foods SDF.asset using Guid(45b8a2611ab7b6d4687c6bd4ad3b10c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7f58a0df54eda923cdc56aff7eabca') in 0.356766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/ConSonido.png
+  artifactKey: Guid(242713fd31fa8ed49a9e32f26f1072da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/ConSonido.png using Guid(242713fd31fa8ed49a9e32f26f1072da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327340b646f20227ffbfc1d3c983c3ed') in 0.104621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
+  artifactKey: Guid(17c350171f7a3ca479f830547c66d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg using Guid(17c350171f7a3ca479f830547c66d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34741a1415cf88c1905b26d0f9d99ccf') in 0.097128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/enojo.png
+  artifactKey: Guid(3b71c293ba7357f41a7bc592181bb0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/enojo.png using Guid(3b71c293ba7357f41a7bc592181bb0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f3580bf5b1fcd707b98442c278272e') in 0.138622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/boton-de-pausa.png
+  artifactKey: Guid(d6d3307fd2fd36f43be3122f96721300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/boton-de-pausa.png using Guid(d6d3307fd2fd36f43be3122f96721300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75da10a7291016cfa415bbcc020dfb2b') in 0.104653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+  artifactKey: Guid(fd09957580ac4326916010f1f260975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd using Guid(fd09957580ac4326916010f1f260975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77a771d354b899596aca07ee0676a1a') in 0.096446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png
+  artifactKey: Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png using Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbf2af6337f81d1d75980dcc47537fc') in 0.085123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3a96a7b16156ad8ffa254e23a64f71') in 0.050425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd284e5b1a8e15a9d5f3996cc27e8f9') in 0.073262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/Pixel Skies/demo02_PixelSky_1920x1080.png
+  artifactKey: Guid(23e37d0059af18c4f81beec3bf9f8d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/Pixel Skies/demo02_PixelSky_1920x1080.png using Guid(23e37d0059af18c4f81beec3bf9f8d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81938d8cf1dab169e2fd4c36cb2fbbad') in 0.314698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/Enemy.png
+  artifactKey: Guid(5d4daff38e3d9174b873918abcf2c1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/Enemy.png using Guid(5d4daff38e3d9174b873918abcf2c1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b906b1bb2f5d070fc6216ee7f81e7c9') in 0.120557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
+  artifactKey: Guid(ed5290d8df18488780e2996b9b882f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd using Guid(ed5290d8df18488780e2996b9b882f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9a6096b02034ac96810d852949ebee') in 0.100283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/botones.png
+  artifactKey: Guid(e32bd25c44e28924f8de3fa701478d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/botones.png using Guid(e32bd25c44e28924f8de3fa701478d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b5a828197fa96ea1d8d2563007130c') in 0.109839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3c3f1447db4a199303e78c150c8e81') in 0.059681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/apple.png
+  artifactKey: Guid(2c7170b88ba206347912a71e145f6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/apple.png using Guid(2c7170b88ba206347912a71e145f6cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af255dada4ba6eb60c296d7ce6f71df6') in 0.225216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX FX Torch Flame.png
+  artifactKey: Guid(22a56ebdc97997341afdcb2e902b2ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX FX Torch Flame.png using Guid(22a56ebdc97997341afdcb2e902b2ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95901c8795cb6a61c912501921d0a8a') in 0.075741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/keys.png
+  artifactKey: Guid(fd4c43021da718947ae1fbcd4ca9a98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/keys.png using Guid(fd4c43021da718947ae1fbcd4ca9a98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21632f8cd22d7cc2032d058c7e222efb') in 0.119971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/box.png
+  artifactKey: Guid(f78a97806c6d59e429e5c123a7238469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/box.png using Guid(f78a97806c6d59e429e5c123a7238469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2b88efc2438c9b7212f67fdff959c4') in 0.094612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f411dc487d862051c8615ed2fedf126') in 0.113791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/sin-sonido.png
+  artifactKey: Guid(2838ab64ff3c0d345baa3f79e2e5cad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/sin-sonido.png using Guid(2838ab64ff3c0d345baa3f79e2e5cad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d50e5150c66a3ab4301d6e5cd7d19a') in 0.106990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f89eae9c2135f5b10b42905a870037') in 0.148135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
+  artifactKey: Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png using Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808a4f6a263a13abb743920eb589d945') in 0.098607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+  artifactKey: Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg using Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da7db1a38a823da98cd1cda4cb61bff') in 0.072485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
+  artifactKey: Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd using Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f39b02388c4563e90b917909bc58186') in 0.050049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/home.png
+  artifactKey: Guid(414b4aa0edd45064a9cb94c317c74b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/home.png using Guid(414b4aa0edd45064a9cb94c317c74b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03219925d74db092865d5e3cb5c00cb') in 0.107546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.792625 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/icoGame.ico
+  artifactKey: Guid(492676e9a12e3954f820c3e4b72f9efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/icoGame.ico using Guid(492676e9a12e3954f820c3e4b72f9efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398665488be275f5108953fc43efc952') in 0.037579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.727209 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/icono.png
+  artifactKey: Guid(23b46b4c9536bf345b23e65a7daef938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/icono.png using Guid(23b46b4c9536bf345b23e65a7daef938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4511e62975523fc7e7344cf2272984') in 0.130227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.835138 seconds.
+  path: Assets/PCGame2d_Reto2/Sprites/icono.png
+  artifactKey: Guid(23b46b4c9536bf345b23e65a7daef938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Sprites/icono.png using Guid(23b46b4c9536bf345b23e65a7daef938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfb8edcf5f5d855a4291b9bc1b795e0') in 0.255763 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (2.2 MB). Loaded Objects now: 6135.
+Memory consumption went from 104.8 MB to 102.6 MB.
+Total: 21.294700 ms (FindLiveObjects: 3.052400 ms CreateObjectMapping: 1.491900 ms MarkObjects: 15.197400 ms  DeleteObjects: 1.551100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 752.787556 seconds.
+  path: Assets/PCGame2d_Reto2/Scripts/UiManager.cs
+  artifactKey: Guid(70b66ff370882e74c896e99f62c5b527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Scripts/UiManager.cs using Guid(70b66ff370882e74c896e99f62c5b527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b25e6e3b869722bf1a8fb2a73fd6658') in 0.103817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 179.192902 seconds.
+  path: Assets/PCGame2d_Reto2/Scripts/changeLevel.cs
+  artifactKey: Guid(5aa55e8806bdd734e99e73d7944d025d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Scripts/changeLevel.cs using Guid(5aa55e8806bdd734e99e73d7944d025d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d36367d5e4bf207d68f21831e3b4de') in 0.046815 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016440 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\lupi\unity\RETO2\PCGame2d_Reto2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\lupi\unity\RETO2\PCGame2d_Reto2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.101 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6104ms)
+		BeginReloadAssembly (1050ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (154ms)
+		EndReloadAssembly (4329ms)
+			LoadAssemblies (938ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1710ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (207ms)
+			SetupLoadedEditorAssemblies (1900ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (283ms)
+				ProcessInitializeOnLoadAttributes (1048ms)
+				ProcessInitializeOnLoadMethodAttributes (506ms)
+				AfterProcessingInitializeOnLoad (40ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5054 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (2.2 MB). Loaded Objects now: 6149.
+Memory consumption went from 205.0 MB to 202.8 MB.
+Total: 12.727100 ms (FindLiveObjects: 1.103100 ms CreateObjectMapping: 1.158900 ms MarkObjects: 8.060100 ms  DeleteObjects: 2.403300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 342.100923 seconds.
+  path: Assets/PCGame2d_Reto2/Scenes/Scene02.unity
+  artifactKey: Guid(fc3d1ba6e274f9b43b2a598ec6fa0e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Scenes/Scene02.unity using Guid(fc3d1ba6e274f9b43b2a598ec6fa0e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0099577237fc1063b5219cd2d1391227') in 0.078081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.437543 seconds.
+  path: Assets/PCGame2d_Reto2/Scenes/Scene01.unity
+  artifactKey: Guid(912abe2bdc461bc48bafc9c672ed06d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Scenes/Scene01.unity using Guid(912abe2bdc461bc48bafc9c672ed06d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f924990c828c3e98e790c1b62a77b0') in 0.033506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.037276 seconds.
+  path: Assets/PCGame2d_Reto2/Scenes/Scene03.unity
+  artifactKey: Guid(6b7b833051944b54eba978094c974e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PCGame2d_Reto2/Scenes/Scene03.unity using Guid(6b7b833051944b54eba978094c974e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf0ff9d619f9f8f7ae95266e3b63b64') in 0.040097 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (2.2 MB). Loaded Objects now: 6149.
+Memory consumption went from 104.2 MB to 102.0 MB.
+Total: 10.174300 ms (FindLiveObjects: 0.877100 ms CreateObjectMapping: 0.630800 ms MarkObjects: 7.050900 ms  DeleteObjects: 1.613800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
